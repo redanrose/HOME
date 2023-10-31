@@ -1,0 +1,50 @@
+:root {
+    --DARK-BACKGROUND: #111111  ;
+    --DARK-COLOR: #F0F0F0;
+    --LIGHT-BACKGROUND: #F0F0F0;
+    --LIGHT-COLOR: #111111;
+}
+
+@font-face {
+    font-family: 'HANDLEE';
+    src: url(/FONT/HandleeREGULAR.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'CUTIVE MONO';
+    src: url(../FONT/CutiveMonoREGULAR.ttf) format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'HANDLEE', monospace;
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+    background-color: var(--LIGHT-BACKGROUND);
+}
+body {
+    height: 100%;
+    background-color: var(--LIGHT-BACKGROUND);
+    color: var(--LIGHT-COLOR);
+}
+
+a {
+    text-decoration: none;
+    font-weight: none;
+    color: blue;
+}
+
+ol {
+    list-style: none;
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}

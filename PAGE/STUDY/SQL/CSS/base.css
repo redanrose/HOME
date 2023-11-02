@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'HANDLEE';
-    src: url(../FONT/HandleeREGULAR.ttf) format('truetype');
+    src: url(/FONT/HandleeREGULAR.ttf) format('truetype');
 }
 @font-face {
     font-family: 'CUTIVE MONO';

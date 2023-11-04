@@ -6,12 +6,8 @@
 }
 
 @font-face {
-    font-family: 'HANDLEE';
-    src: url(/FONT/HandleeREGULAR.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'CUTIVE MONO';
-    src: url(../FONT/CutiveMonoREGULAR.ttf) format('truetype');
+    font-family: 'AZARET MONO';
+    src: url(../../../../FONT/AZARET-MONO.ttf) format('truetype');
 }
 
 * {
@@ -19,7 +15,7 @@
     margin: 0;
     box-sizing: border-box;
     user-select: none;
-    font-family: 'HANDLEE', monospace;
+    font-family: 'AZARET MONO', monospace;
 }
 
 html {

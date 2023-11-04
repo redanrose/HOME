@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 0 10px;
+    }
+
+    .header__title {
+        text-align: left;
+    }
+
+    .main__container-content {
+        margin: 10px 0;
+    }
+
+}

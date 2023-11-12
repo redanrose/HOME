@@ -1,44 +1,12 @@
 @media screen and (max-width: 768px) {
-    
-    .header__container-title {
-        display: block;
-        padding: 70px 0 30px 0;
-    }
+
     .header__title {
-        text-align: center;
-        font-weight: 700;
-        letter-spacing: 1px;
+        color: #FFFFFF;
     }
 
-    .nav__container-menu {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
     .nav__link-s {
-        color: rgb(190, 0, 0);
-    }
-    .nav__link-s:hover {
-        transition: 0.3s;
-        font-weight: 700;
+        color: #CC0000;
     }
 
-    .article-studies {
-        padding: 20px 0;
-    }
-    .article-studies__container-title {
-        padding: 10px 0;
-    }
-    .article-studies__title {
-        text-align: center;
-        font-weight: 700;
-    }
-    .article-studies__container-content {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .article-studies__container-content li a {
-        color: inherit;
-    }
+
 }
